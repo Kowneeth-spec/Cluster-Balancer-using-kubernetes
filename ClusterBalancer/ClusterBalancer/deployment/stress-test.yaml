@@ -1,0 +1,362 @@
+################################################################################
+# ClusterBalancer - Stress Test YAML Configuration
+#
+# This file creates a Kubernetes namespace with two deployments to test the
+# ClusterBalancer monitoring system:
+#
+# 1. Balanced Stress Deployment: Distributes pods evenly across all 3 nodes
+#    - Uses topologySpreadConstraints to spread pods across nodes
+#    - Heavy CPU stress to trigger >70% CPU usage on all nodes
+#
+# 2. Imbalanced Stress Deployment: Concentrates pods on control-plane only
+#    - Uses nodeSelector to pin pods to the minikube control-plane
+#    - Simulates an imbalanced cluster scenario
+#
+# Deploy with:
+#   kubectl apply -f deployment/stress-test.yaml
+#
+# Monitor with:
+#   python monitoring/monitor.py --continuous --interval 5
+#
+################################################################################
+
+---
+# NAMESPACE: Create dedicated namespace for stress testing
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: stress-test
+  labels:
+    name: stress-test
+    app: clusterbalancer-stress-test
+
+---
+# DEPLOYMENT 1: Balanced CPU Stress Distribution
+# Purpose: Stress CPU on ALL nodes evenly to trigger overutilized status
+#
+# Strategy:
+#   - Uses stress --cpu 2 to heavily utilize CPU cores
+#   - topologySpreadConstraints ensures even distribution
+#   - Multiple replicas (6 total) = 2 pods per node
+#   - Should push each node to 70%+ CPU usage
+#
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: balanced-stress
+  namespace: stress-test
+  labels:
+    app: balanced-stress
+    component: cpu-stress
+    scenario: balanced-distribution
+spec:
+  # 12 replicas = 4 pods per node (3 nodes) for more aggressive stress
+  # Increased for minikube's limited resources
+  replicas: 12
+  
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  
+  selector:
+    matchLabels:
+      app: balanced-stress
+      component: cpu-stress
+  
+  template:
+    metadata:
+      labels:
+        app: balanced-stress
+        component: cpu-stress
+        scenario: balanced-distribution
+    spec:
+      # Namespace is inherited from metadata
+      
+      # Priority to ensure pods aren't evicted
+      priorityClassName: system-cluster-critical
+      
+      # Topology spread to distribute evenly across nodes
+      topologySpreadConstraints:
+        - maxSkew: 1
+          topologyKey: kubernetes.io/hostname
+          whenUnsatisfiable: DoNotSchedule
+          labelSelector:
+            matchLabels:
+              app: balanced-stress
+        - maxSkew: 1
+          topologyKey: topology.kubernetes.io/zone
+          whenUnsatisfiable: ScheduleAnyway
+          labelSelector:
+            matchLabels:
+              app: balanced-stress
+      
+      # Pod anti-affinity to spread across nodes
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - weight: 100
+              podAffinityTerm:
+                labelSelector:
+                  matchExpressions:
+                    - key: app
+                      operator: In
+                      values:
+                        - balanced-stress
+                topologyKey: kubernetes.io/hostname
+      
+      # Restart policy
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 10
+      
+      containers:
+      - name: stress
+        # Official stress-ng or stress image with CPU stress capability
+        image: polinux/stress:latest
+        imagePullPolicy: IfNotPresent
+        
+        # Command: stress the CPU for 600 seconds (10 minutes)
+        # --cpu 4: Utilize 4 CPU cores (more aggressive for minikube)
+        # --timeout 600s: Run for 600 seconds, then exit
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            stress --cpu 4 --timeout 600s
+        
+        # Resource requests: CPU and memory that pod needs
+        # Lower CPU requests to fit more pods on minikube's limited resources
+        resources:
+          requests:
+            cpu: "100m"         # 100m CPU (very low to fit more pods on minikube)
+            memory: "64Mi"      # 64 MB memory requested
+          
+          # Resource limits: Maximum CPU and memory allowed
+          limits:
+            cpu: "500m"         # 500m CPU limit (higher to allow more stress)
+            memory: "256Mi"     # 256 MB memory limit
+        
+        # Liveness probe to restart if container fails
+        livenessProbe:
+          exec:
+            command:
+              - /bin/sh
+              - -c
+              - "ps aux | grep stress"
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        
+        # Security context for safety
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: false
+          capabilities:
+            drop:
+              - ALL
+
+---
+# DEPLOYMENT 2: Imbalanced CPU Stress (Control-Plane Only)
+# Purpose: Concentrate all stress on control-plane node to create imbalance
+#
+# Strategy:
+#   - Uses nodeSelector to pin pods to control-plane only
+#   - 9 replicas all on one node = severe imbalance
+#   - Control-plane will show very high CPU (>80%)
+#   - Other nodes remain underutilized
+#   - This clearly shows the cluster is imbalanced
+#
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: imbalanced-stress
+  namespace: stress-test
+  labels:
+    app: imbalanced-stress
+    component: cpu-stress
+    scenario: imbalanced-distribution
+spec:
+  # 15 replicas all on control-plane = severe CPU overload for minikube
+  replicas: 15
+  
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 3
+      maxUnavailable: 0
+  
+  selector:
+    matchLabels:
+      app: imbalanced-stress
+      component: cpu-stress
+  
+  template:
+    metadata:
+      labels:
+        app: imbalanced-stress
+        component: cpu-stress
+        scenario: imbalanced-distribution
+    spec:
+      # Pin all pods to control-plane node only
+      nodeSelector:
+        node-role.kubernetes.io/control-plane: ""
+      
+      # Tolerate control-plane taint
+      tolerations:
+        - key: node-role.kubernetes.io/control-plane
+          operator: Equal
+          value: ""
+          effect: NoSchedule
+        - key: node-role.kubernetes.io/control-plane
+          operator: Equal
+          value: ""
+          effect: NoExecute
+      
+      # Priority to keep on control-plane
+      priorityClassName: system-cluster-critical
+      
+      # Restart policy
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 10
+      
+      containers:
+      - name: stress
+        image: polinux/stress:latest
+        imagePullPolicy: IfNotPresent
+        
+        # Same stress command as balanced deployment but more aggressive
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            stress --cpu 4 --timeout 600s
+        
+        # Resource requests and limits (low to fit on minikube)
+        resources:
+          requests:
+            cpu: "100m"         # 100m CPU (very low to fit on minikube)
+            memory: "64Mi"      # 64 MB memory
+          
+          limits:
+            cpu: "500m"         # 500m CPU limit
+            memory: "256Mi"     # 256 MB memory limit
+        
+        # Liveness probe
+        livenessProbe:
+          exec:
+            command:
+              - /bin/sh
+              - -c
+              - "ps aux | grep stress"
+          initialDelaySeconds: 5
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        
+        # Security context
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: false
+          capabilities:
+            drop:
+              - ALL
+
+---
+# POD DISRUPTION BUDGET: Ensure minimum pod availability
+# Prevents accidental pod disruptions during testing
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: balanced-stress-pdb
+  namespace: stress-test
+spec:
+  minAvailable: 8
+  selector:
+    matchLabels:
+      app: balanced-stress
+
+---
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: imbalanced-stress-pdb
+  namespace: stress-test
+spec:
+  minAvailable: 10
+  selector:
+    matchLabels:
+      app: imbalanced-stress
+
+---
+# NETWORK POLICY: Optional - Isolate stress test traffic
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: stress-test-isolation
+  namespace: stress-test
+spec:
+  podSelector: {}
+  policyTypes:
+    - Ingress
+    - Egress
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              name: stress-test
+  egress:
+    - to:
+        - namespaceSelector:
+            matchLabels:
+              name: stress-test
+    - to:
+        - namespaceSelector: {}
+          podSelector:
+            matchLabels:
+              k8s-app: kube-dns
+      ports:
+        - protocol: UDP
+          port: 53
+
+################################################################################
+# DEPLOYMENT INSTRUCTIONS
+################################################################################
+#
+# 1. Apply the YAML file:
+#    kubectl apply -f deployment/stress-test.yaml
+#
+# 2. Verify deployments are running:
+#    kubectl get deployments -n stress-test
+#    kubectl get pods -n stress-test
+#
+# 3. Monitor pod distribution across nodes:
+#    kubectl get pods -n stress-test -o wide
+#
+# 4. In another terminal, run continuous monitoring:
+#    python monitoring/monitor.py --continuous --interval 5
+#
+# 5. Watch the monitor output:
+#    - Balanced Deployment: All nodes should show >70% CPU (overutilized)
+#    - Imbalanced Deployment: Control-plane should show >80% CPU
+#
+# 6. Clean up when done:
+#    kubectl delete namespace stress-test
+#
+################################################################################
+
+# EXPECTED MONITOR OUTPUT WITH THIS CONFIG:
+#
+# ✓ Node: minikube | CPU: 75-85% | Memory: 45-55%
+#   → Overutilized (CPU > 70%)
+#
+# ✓ Node: minikube-m02 | CPU: 70-80% | Memory: 40-50%
+#   → Overutilized (CPU > 70%)
+#
+# ✓ Node: minikube-m03 | CPU: 72-82% | Memory: 42-52%
+#   → Overutilized (CPU > 70%)
+#
+# ⚠ Decision Engine Analysis:
+#   ⚠ Imbalance detected: 10-12% CPU difference between nodes
+#   → Recommends rebalancing pods from overloaded nodes
+#
+################################################################################

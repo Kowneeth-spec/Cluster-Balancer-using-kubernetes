@@ -1,0 +1,55 @@
+# ===== STEP 1: CHECK DOCKER =====
+docker version
+
+# ===== STEP 2: START KUBERNETES CLUSTER =====
+minikube start --driver=docker --nodes=3
+
+# ===== STEP 3: WAIT FOR NODES READY =====
+kubectl wait --for=condition=Ready nodes --all --timeout=120s
+
+# ===== STEP 4: ENABLE METRICS SERVER =====
+minikube addons enable metrics-server
+Start-Sleep -Seconds 15
+
+# ===== STEP 5: VERIFY METRICS =====
+kubectl top nodes
+
+# ===== STEP 6: GO TO PROJECT DIRECTORY =====
+cd "c:\Users\kowne\Downloads\Drive\CPP Mini Project\ClusterBalancer\ClusterBalancer"
+
+# ===== STEP 7: RUN DEMO SCRIPT =====
+powershell -ExecutionPolicy Bypass -File ".\demo_overload.ps1"
+
+# ===== STEP 8: CHECK POD DISTRIBUTION =====
+kubectl get pods -l app=cpu-heavy -o wide
+
+# ===== STEP 9: RUN MONITORING =====
+python monitoring/monitor.py
+
+# ===== STEP 10: PREVIEW REBALANCING =====
+python scheduler/rebalance.py --dry-run
+
+# ===== STEP 11: EXECUTE REBALANCING =====
+python scheduler/rebalance.py
+
+# ===== STEP 12: VERIFY CPU LOAD =====
+kubectl top nodes
+kubectl top pods
+
+# ===== STEP 13: CLEANUP =====
+kubectl delete deployment cpu-heavy
+
+
+single deploymnet 
+
+docker version
+minikube start --driver=docker --nodes=3
+kubectl wait --for=condition=Ready nodes --all --timeout=120s
+minikube addons enable metrics-server
+Start-Sleep -Seconds 15
+cd "c:\Users\kowne\Downloads\Drive\CPP Mini Project\ClusterBalancer\ClusterBalancer"
+powershell -ExecutionPolicy Bypass -File ".\demo_overload.ps1"
+python monitoring/monitor.py
+python scheduler/rebalance.py --dry-run
+python scheduler/rebalance.py
+kubectl delete deployment cpu-heavy

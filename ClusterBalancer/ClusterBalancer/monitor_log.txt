@@ -1,0 +1,2367 @@
+
+============================================================
+[2026-04-30 11:42:22] Monitoring started
+============================================================
+2026-04-30 11:42:24,064 - INFO - Configuration loaded from C:\Users\kowne\Downloads\Drive\CPP Mini Project\ClusterBalancer\ClusterBalancer\config.json
+2026-04-30 11:42:24,064 - INFO - ============================================================
+2026-04-30 11:42:24,064 - INFO - ClusterBalancer – Adaptive Workload Distribution System
+2026-04-30 11:42:24,064 - INFO - ============================================================
+2026-04-30 11:42:24,064 - INFO - Mode: Continuous
+2026-04-30 11:42:24,064 - INFO - Check interval: 5 seconds
+2026-04-30 11:42:24,064 - INFO - ============================================================
+2026-04-30 11:42:24,064 - INFO - 
+[ITERATION 1] 2026-04-30 11:42:24
+2026-04-30 11:42:26,075 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:42:28,107 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:42:30,139 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:42:32,179 - ERROR - Error listing nodes: HTTPSConnectionPool(host='127.0.0.1', port=58076): Max retries exceeded with url: /api/v1/nodes (Caused by NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+[2026-04-30 11:42:32] Monitoring stopped
+
+============================================================
+[2026-04-30 11:46:29] Monitoring started
+============================================================
+2026-04-30 11:46:30,327 - INFO - Configuration loaded from C:\Users\kowne\Downloads\Drive\CPP Mini Project\ClusterBalancer\ClusterBalancer\config.json
+2026-04-30 11:46:30,327 - INFO - ============================================================
+2026-04-30 11:46:30,327 - INFO - ClusterBalancer – Adaptive Workload Distribution System
+2026-04-30 11:46:30,328 - INFO - ============================================================
+2026-04-30 11:46:30,328 - INFO - Mode: Continuous
+2026-04-30 11:46:30,328 - INFO - Check interval: 5 seconds
+2026-04-30 11:46:30,328 - INFO - ============================================================
+2026-04-30 11:46:30,328 - INFO - 
+[ITERATION 1] 2026-04-30 11:46:30
+2026-04-30 11:46:32,358 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:46:34,387 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:46:36,420 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:46:38,447 - ERROR - Error listing nodes: HTTPSConnectionPool(host='127.0.0.1', port=58076): Max retries exceeded with url: /api/v1/nodes (Caused by NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+[2026-04-30 11:46:38] Monitoring stopped
+
+============================================================
+[2026-04-30 11:50:40] Monitoring started
+============================================================
+2026-04-30 11:50:41,349 - INFO - Configuration loaded from C:\Users\kowne\Downloads\Drive\CPP Mini Project\ClusterBalancer\ClusterBalancer\config.json
+2026-04-30 11:50:41,349 - INFO - ============================================================
+2026-04-30 11:50:41,349 - INFO - ClusterBalancer – Adaptive Workload Distribution System
+2026-04-30 11:50:41,349 - INFO - ============================================================
+2026-04-30 11:50:41,349 - INFO - Mode: Continuous
+2026-04-30 11:50:41,349 - INFO - Check interval: 5 seconds
+2026-04-30 11:50:41,349 - INFO - ============================================================
+2026-04-30 11:50:41,349 - INFO - 
+[ITERATION 1] 2026-04-30 11:50:41
+2026-04-30 11:50:43,380 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:50:45,393 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:50:47,413 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /api/v1/nodes
+2026-04-30 11:50:49,443 - ERROR - Error listing nodes: HTTPSConnectionPool(host='127.0.0.1', port=58076): Max retries exceeded with url: /api/v1/nodes (Caused by NewConnectionError("HTTPSConnection(host='127.0.0.1', port=58076): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+[2026-04-30 11:50:49] Monitoring stopped
+
+============================================================
+[2026-04-30 11:55:55] Monitoring started
+============================================================
+2026-04-30 11:55:56,412 - INFO - Configuration loaded from C:\Users\kowne\Downloads\Drive\CPP Mini Project\ClusterBalancer\ClusterBalancer\config.json
+2026-04-30 11:55:56,412 - INFO - ============================================================
+2026-04-30 11:55:56,412 - INFO - ClusterBalancer – Adaptive Workload Distribution System
+2026-04-30 11:55:56,412 - INFO - ============================================================
+2026-04-30 11:55:56,412 - INFO - Mode: Continuous
+2026-04-30 11:55:56,412 - INFO - Check interval: 5 seconds
+2026-04-30 11:55:56,412 - INFO - ============================================================
+2026-04-30 11:55:56,413 - INFO - 
+[ITERATION 1] 2026-04-30 11:55:56
+2026-04-30 11:55:56,445 - INFO - Node Resource Usage:
+2026-04-30 11:55:56,445 - WARNING -   Node: minikube - Metrics not available
+2026-04-30 11:55:56,445 - WARNING -   Node: minikube-m02 - Metrics not available
+2026-04-30 11:55:56,445 - WARNING -   Node: minikube-m03 - Metrics not available
+2026-04-30 11:55:56,445 - INFO - Decision Engine Analysis:
+2026-04-30 11:55:56,445 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:55:56,446 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:01,446 - INFO - 
+[ITERATION 2] 2026-04-30 11:56:01
+2026-04-30 11:56:01,482 - INFO - Node Resource Usage:
+2026-04-30 11:56:01,482 - WARNING -   Node: minikube - Metrics not available
+2026-04-30 11:56:01,482 - WARNING -   Node: minikube-m02 - Metrics not available
+2026-04-30 11:56:01,482 - WARNING -   Node: minikube-m03 - Metrics not available
+2026-04-30 11:56:01,482 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:01,482 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:01,482 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:06,483 - INFO - 
+[ITERATION 3] 2026-04-30 11:56:06
+2026-04-30 11:56:06,510 - INFO - Node Resource Usage:
+2026-04-30 11:56:06,511 - WARNING -   Node: minikube - Metrics not available
+2026-04-30 11:56:06,511 - WARNING -   Node: minikube-m02 - Metrics not available
+2026-04-30 11:56:06,511 - WARNING -   Node: minikube-m03 - Metrics not available
+2026-04-30 11:56:06,511 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:06,511 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:06,511 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:11,511 - INFO - 
+[ITERATION 4] 2026-04-30 11:56:11
+2026-04-30 11:56:11,540 - INFO - Node Resource Usage:
+2026-04-30 11:56:11,540 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:11,540 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:11,540 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:11,540 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:11,540 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:11,540 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:11,540 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:11,540 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:16,541 - INFO - 
+[ITERATION 5] 2026-04-30 11:56:16
+2026-04-30 11:56:16,576 - INFO - Node Resource Usage:
+2026-04-30 11:56:16,576 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:16,576 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:16,576 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:16,576 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:16,576 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:16,576 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:16,576 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:16,577 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:21,577 - INFO - 
+[ITERATION 6] 2026-04-30 11:56:21
+2026-04-30 11:56:21,607 - INFO - Node Resource Usage:
+2026-04-30 11:56:21,608 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:21,608 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:21,608 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:21,608 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:21,608 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:21,608 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:21,608 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:21,608 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:26,608 - INFO - 
+[ITERATION 7] 2026-04-30 11:56:26
+2026-04-30 11:56:26,637 - INFO - Node Resource Usage:
+2026-04-30 11:56:26,637 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:26,637 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:26,637 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:26,637 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:26,637 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:26,637 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:26,637 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:26,638 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:31,638 - INFO - 
+[ITERATION 8] 2026-04-30 11:56:31
+2026-04-30 11:56:31,670 - INFO - Node Resource Usage:
+2026-04-30 11:56:31,670 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:31,670 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:31,670 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:31,670 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:31,671 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:31,671 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:31,671 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:31,671 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:36,671 - INFO - 
+[ITERATION 9] 2026-04-30 11:56:36
+2026-04-30 11:56:36,701 - INFO - Node Resource Usage:
+2026-04-30 11:56:36,701 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:36,701 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:36,701 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:36,701 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:36,701 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:36,701 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:36,701 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:36,702 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:41,702 - INFO - 
+[ITERATION 10] 2026-04-30 11:56:41
+2026-04-30 11:56:41,729 - INFO - Node Resource Usage:
+2026-04-30 11:56:41,729 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:41,729 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:41,729 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:41,729 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:41,729 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:41,729 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:41,729 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:41,729 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:46,730 - INFO - 
+[ITERATION 11] 2026-04-30 11:56:46
+2026-04-30 11:56:46,764 - INFO - Node Resource Usage:
+2026-04-30 11:56:46,764 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:46,765 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:46,765 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:46,765 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:46,765 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:46,765 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:46,765 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:46,765 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:51,766 - INFO - 
+[ITERATION 12] 2026-04-30 11:56:51
+2026-04-30 11:56:51,795 - INFO - Node Resource Usage:
+2026-04-30 11:56:51,795 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:51,795 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:51,795 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:51,795 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:51,795 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:51,795 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:51,795 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:51,795 - INFO - Next check in 5 seconds...
+2026-04-30 11:56:56,796 - INFO - 
+[ITERATION 13] 2026-04-30 11:56:56
+2026-04-30 11:56:56,830 - INFO - Node Resource Usage:
+2026-04-30 11:56:56,830 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:56:56,830 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:56:56,830 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:56:56,830 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:56:56,830 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:56:56,830 - INFO - Decision Engine Analysis:
+2026-04-30 11:56:56,830 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:56:56,830 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:01,831 - INFO - 
+[ITERATION 14] 2026-04-30 11:57:01
+2026-04-30 11:57:01,865 - INFO - Node Resource Usage:
+2026-04-30 11:57:01,865 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.6%
+2026-04-30 11:57:01,865 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%)
+2026-04-30 11:57:01,865 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:01,865 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:01,865 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:01,865 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:01,865 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:01,865 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:06,866 - INFO - 
+[ITERATION 15] 2026-04-30 11:57:06
+2026-04-30 11:57:06,899 - INFO - Node Resource Usage:
+2026-04-30 11:57:06,899 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:06,899 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:06,899 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:06,899 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:06,899 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:06,899 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:06,899 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:06,900 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:11,900 - INFO - 
+[ITERATION 16] 2026-04-30 11:57:11
+2026-04-30 11:57:11,928 - INFO - Node Resource Usage:
+2026-04-30 11:57:11,929 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:11,929 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:11,929 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:11,929 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:11,929 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:11,929 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:11,929 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:11,929 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:16,929 - INFO - 
+[ITERATION 17] 2026-04-30 11:57:16
+2026-04-30 11:57:16,964 - INFO - Node Resource Usage:
+2026-04-30 11:57:16,964 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:16,964 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:16,964 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:16,964 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:16,964 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:16,964 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:16,965 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:16,965 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:21,965 - INFO - 
+[ITERATION 18] 2026-04-30 11:57:21
+2026-04-30 11:57:22,012 - INFO - Node Resource Usage:
+2026-04-30 11:57:22,012 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:22,012 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:22,012 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:22,012 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:22,012 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:22,012 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:22,012 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:22,013 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:27,014 - INFO - 
+[ITERATION 19] 2026-04-30 11:57:27
+2026-04-30 11:57:27,058 - INFO - Node Resource Usage:
+2026-04-30 11:57:27,059 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:27,059 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:27,059 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:27,059 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:27,059 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:27,059 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:27,059 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:27,059 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:32,060 - INFO - 
+[ITERATION 20] 2026-04-30 11:57:32
+2026-04-30 11:57:32,090 - INFO - Node Resource Usage:
+2026-04-30 11:57:32,090 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:32,090 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:32,090 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:32,090 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:32,090 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:32,090 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:32,090 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:32,091 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:37,091 - INFO - 
+[ITERATION 21] 2026-04-30 11:57:37
+2026-04-30 11:57:37,123 - INFO - Node Resource Usage:
+2026-04-30 11:57:37,123 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:37,123 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:37,123 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:37,123 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:37,123 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:37,123 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:37,123 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:37,123 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:42,124 - INFO - 
+[ITERATION 22] 2026-04-30 11:57:42
+2026-04-30 11:57:42,155 - INFO - Node Resource Usage:
+2026-04-30 11:57:42,155 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:42,156 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:42,156 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:42,156 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:42,156 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:42,156 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:42,156 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:42,156 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:47,156 - INFO - 
+[ITERATION 23] 2026-04-30 11:57:47
+2026-04-30 11:57:47,186 - INFO - Node Resource Usage:
+2026-04-30 11:57:47,187 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:47,187 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:47,187 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:47,187 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:47,187 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:47,187 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:47,187 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:47,187 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:52,187 - INFO - 
+[ITERATION 24] 2026-04-30 11:57:52
+2026-04-30 11:57:52,214 - INFO - Node Resource Usage:
+2026-04-30 11:57:52,214 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:52,214 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:52,214 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:52,214 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:52,214 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:52,215 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:52,215 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:52,215 - INFO - Next check in 5 seconds...
+2026-04-30 11:57:57,216 - INFO - 
+[ITERATION 25] 2026-04-30 11:57:57
+2026-04-30 11:57:57,243 - INFO - Node Resource Usage:
+2026-04-30 11:57:57,243 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:57:57,243 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:57:57,244 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:57:57,244 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:57:57,244 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:57:57,244 - INFO - Decision Engine Analysis:
+2026-04-30 11:57:57,244 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:57:57,244 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:02,244 - INFO - 
+[ITERATION 26] 2026-04-30 11:58:02
+2026-04-30 11:58:02,274 - INFO - Node Resource Usage:
+2026-04-30 11:58:02,274 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:58:02,274 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:02,274 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:02,274 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:58:02,274 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:02,274 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:02,274 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:02,275 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:07,275 - INFO - 
+[ITERATION 27] 2026-04-30 11:58:07
+2026-04-30 11:58:07,303 - INFO - Node Resource Usage:
+2026-04-30 11:58:07,303 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:07,303 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:07,303 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:07,303 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:07,303 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:07,303 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:07,303 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:07,303 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:12,304 - INFO - 
+[ITERATION 28] 2026-04-30 11:58:12
+2026-04-30 11:58:12,332 - INFO - Node Resource Usage:
+2026-04-30 11:58:12,332 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:12,332 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:12,332 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:12,332 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:12,332 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:12,332 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:12,332 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:12,333 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:17,333 - INFO - 
+[ITERATION 29] 2026-04-30 11:58:17
+2026-04-30 11:58:17,368 - INFO - Node Resource Usage:
+2026-04-30 11:58:17,368 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:17,368 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:17,368 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:17,368 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:17,368 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:17,368 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:17,368 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:17,369 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:22,369 - INFO - 
+[ITERATION 30] 2026-04-30 11:58:22
+2026-04-30 11:58:22,398 - INFO - Node Resource Usage:
+2026-04-30 11:58:22,398 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:22,398 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:22,398 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:22,398 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:22,398 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:22,398 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:22,398 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:22,399 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:27,399 - INFO - 
+[ITERATION 31] 2026-04-30 11:58:27
+2026-04-30 11:58:27,427 - INFO - Node Resource Usage:
+2026-04-30 11:58:27,427 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:27,427 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:27,427 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:27,427 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:27,427 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:27,427 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:27,427 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:27,427 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:32,428 - INFO - 
+[ITERATION 32] 2026-04-30 11:58:32
+2026-04-30 11:58:32,460 - INFO - Node Resource Usage:
+2026-04-30 11:58:32,460 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:32,460 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:32,460 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:32,460 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:32,460 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:32,460 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:32,460 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:32,460 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:37,461 - INFO - 
+[ITERATION 33] 2026-04-30 11:58:37
+2026-04-30 11:58:37,492 - INFO - Node Resource Usage:
+2026-04-30 11:58:37,492 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:37,493 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:37,493 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:37,493 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:37,493 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:37,493 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:37,493 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:37,493 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:42,494 - INFO - 
+[ITERATION 34] 2026-04-30 11:58:42
+2026-04-30 11:58:42,520 - INFO - Node Resource Usage:
+2026-04-30 11:58:42,520 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:42,520 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:42,520 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:42,521 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:42,521 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:42,521 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:42,521 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:42,521 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:47,521 - INFO - 
+[ITERATION 35] 2026-04-30 11:58:47
+2026-04-30 11:58:47,552 - INFO - Node Resource Usage:
+2026-04-30 11:58:47,552 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:47,553 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:47,553 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:47,553 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:47,553 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:47,553 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:47,553 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:47,553 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:52,553 - INFO - 
+[ITERATION 36] 2026-04-30 11:58:52
+2026-04-30 11:58:52,583 - INFO - Node Resource Usage:
+2026-04-30 11:58:52,583 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:52,583 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:52,583 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:52,583 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:52,583 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:52,583 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:52,583 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:52,583 - INFO - Next check in 5 seconds...
+2026-04-30 11:58:57,584 - INFO - 
+[ITERATION 37] 2026-04-30 11:58:57
+2026-04-30 11:58:57,610 - INFO - Node Resource Usage:
+2026-04-30 11:58:57,610 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:58:57,610 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:58:57,610 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:58:57,611 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:58:57,611 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:58:57,611 - INFO - Decision Engine Analysis:
+2026-04-30 11:58:57,611 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:58:57,611 - INFO - Next check in 5 seconds...
+2026-04-30 11:59:02,611 - INFO - 
+[ITERATION 38] 2026-04-30 11:59:02
+2026-04-30 11:59:02,640 - INFO - Node Resource Usage:
+2026-04-30 11:59:02,640 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 11:59:02,640 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:59:02,640 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:59:02,640 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 11:59:02,640 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:59:02,640 - INFO - Decision Engine Analysis:
+2026-04-30 11:59:02,640 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:59:02,640 - INFO - Next check in 5 seconds...
+2026-04-30 11:59:07,641 - INFO - 
+[ITERATION 39] 2026-04-30 11:59:07
+2026-04-30 11:59:07,677 - INFO - Node Resource Usage:
+2026-04-30 11:59:07,677 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:59:07,677 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:59:07,677 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:59:07,677 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:59:07,678 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:59:07,678 - INFO - Decision Engine Analysis:
+2026-04-30 11:59:07,678 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:59:07,678 - INFO - Next check in 5 seconds...
+2026-04-30 11:59:12,678 - INFO - 
+[ITERATION 40] 2026-04-30 11:59:12
+2026-04-30 11:59:12,706 - INFO - Node Resource Usage:
+2026-04-30 11:59:12,706 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:59:12,706 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:59:12,706 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:59:12,706 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:59:12,706 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:59:12,706 - INFO - Decision Engine Analysis:
+2026-04-30 11:59:12,706 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:59:12,706 - INFO - Next check in 5 seconds...
+2026-04-30 11:59:17,707 - INFO - 
+[ITERATION 41] 2026-04-30 11:59:17
+2026-04-30 11:59:17,734 - INFO - Node Resource Usage:
+2026-04-30 11:59:17,734 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:59:17,734 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:59:17,734 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:59:17,734 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:59:17,734 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:59:17,734 - INFO - Decision Engine Analysis:
+2026-04-30 11:59:17,735 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:59:17,735 - INFO - Next check in 5 seconds...
+2026-04-30 11:59:22,735 - INFO - 
+[ITERATION 42] 2026-04-30 11:59:22
+2026-04-30 11:59:22,763 - INFO - Node Resource Usage:
+2026-04-30 11:59:22,763 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:59:22,763 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:59:22,763 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:59:22,763 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:59:22,763 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:59:22,763 - INFO - Decision Engine Analysis:
+2026-04-30 11:59:22,763 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:59:22,763 - INFO - Next check in 5 seconds...
+2026-04-30 11:59:27,763 - INFO - 
+[ITERATION 43] 2026-04-30 11:59:27
+2026-04-30 11:59:27,792 - INFO - Node Resource Usage:
+2026-04-30 11:59:27,793 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:59:27,793 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:59:27,793 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:59:27,793 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:59:27,793 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:59:27,793 - INFO - Decision Engine Analysis:
+2026-04-30 11:59:27,793 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:59:27,793 - INFO - Next check in 5 seconds...
+2026-04-30 11:59:32,793 - INFO - 
+[ITERATION 44] 2026-04-30 11:59:32
+2026-04-30 11:59:32,837 - INFO - Node Resource Usage:
+2026-04-30 11:59:32,837 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 11:59:32,837 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%)
+2026-04-30 11:59:32,837 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 11:59:32,837 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 11:59:32,837 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%)
+2026-04-30 11:59:32,837 - INFO - Decision Engine Analysis:
+2026-04-30 11:59:32,837 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 11:59:32,837 - INFO - Next check in 5 seconds...
+[2026-04-30 11:59:35] Monitoring stopped
+
+============================================================
+[2026-04-30 12:00:24] Monitoring started
+============================================================
+2026-04-30 12:00:25,278 - INFO - Configuration loaded from C:\Users\kowne\Downloads\Drive\CPP Mini Project\ClusterBalancer\ClusterBalancer\config.json
+2026-04-30 12:00:25,279 - INFO - ============================================================
+2026-04-30 12:00:25,279 - INFO - ClusterBalancer – Adaptive Workload Distribution System
+2026-04-30 12:00:25,279 - INFO - ============================================================
+2026-04-30 12:00:25,279 - INFO - Mode: Continuous
+2026-04-30 12:00:25,279 - INFO - Check interval: 5 seconds
+2026-04-30 12:00:25,279 - INFO - ============================================================
+2026-04-30 12:00:25,279 - INFO - 
+[ITERATION 1] 2026-04-30 12:00:25
+2026-04-30 12:00:25,310 - INFO - Node Resource Usage:
+2026-04-30 12:00:25,310 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:00:25,310 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:00:25,310 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:00:25,310 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:00:25,310 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:00:25,310 - INFO - Decision Engine Analysis:
+2026-04-30 12:00:25,310 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:00:25,311 - INFO - Next check in 5 seconds...
+2026-04-30 12:00:30,311 - INFO - 
+[ITERATION 2] 2026-04-30 12:00:30
+2026-04-30 12:00:30,346 - INFO - Node Resource Usage:
+2026-04-30 12:00:30,346 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:00:30,346 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:00:30,346 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:00:30,346 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:00:30,346 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:00:30,346 - INFO - Decision Engine Analysis:
+2026-04-30 12:00:30,346 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:00:30,346 - INFO - Next check in 5 seconds...
+2026-04-30 12:00:35,347 - INFO - 
+[ITERATION 3] 2026-04-30 12:00:35
+2026-04-30 12:00:35,375 - INFO - Node Resource Usage:
+2026-04-30 12:00:35,375 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:00:35,375 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:00:35,375 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:00:35,375 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:00:35,375 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:00:35,375 - INFO - Decision Engine Analysis:
+2026-04-30 12:00:35,375 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:00:35,375 - INFO - Next check in 5 seconds...
+2026-04-30 12:00:40,376 - INFO - 
+[ITERATION 4] 2026-04-30 12:00:40
+2026-04-30 12:00:40,402 - INFO - Node Resource Usage:
+2026-04-30 12:00:40,402 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:00:40,402 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:00:40,402 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:00:40,402 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:00:40,402 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:00:40,403 - INFO - Decision Engine Analysis:
+2026-04-30 12:00:40,403 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:00:40,403 - INFO - Next check in 5 seconds...
+2026-04-30 12:00:45,403 - INFO - 
+[ITERATION 5] 2026-04-30 12:00:45
+2026-04-30 12:00:45,431 - INFO - Node Resource Usage:
+2026-04-30 12:00:45,431 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:00:45,431 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:00:45,431 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:00:45,431 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:00:45,431 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:00:45,431 - INFO - Decision Engine Analysis:
+2026-04-30 12:00:45,431 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:00:45,431 - INFO - Next check in 5 seconds...
+2026-04-30 12:00:50,431 - INFO - 
+[ITERATION 6] 2026-04-30 12:00:50
+2026-04-30 12:00:50,461 - INFO - Node Resource Usage:
+2026-04-30 12:00:50,461 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:00:50,461 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:00:50,461 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:00:50,461 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:00:50,461 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:00:50,461 - INFO - Decision Engine Analysis:
+2026-04-30 12:00:50,461 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:00:50,462 - INFO - Next check in 5 seconds...
+2026-04-30 12:00:55,462 - INFO - 
+[ITERATION 7] 2026-04-30 12:00:55
+2026-04-30 12:00:55,655 - INFO - Node Resource Usage:
+2026-04-30 12:00:55,655 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:00:55,655 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:00:55,655 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:00:55,655 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:00:55,655 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:00:55,655 - INFO - Decision Engine Analysis:
+2026-04-30 12:00:55,655 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:00:55,656 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:00,656 - INFO - 
+[ITERATION 8] 2026-04-30 12:01:00
+2026-04-30 12:01:00,693 - INFO - Node Resource Usage:
+2026-04-30 12:01:00,693 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:00,693 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:00,693 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:00,693 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:00,693 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:00,693 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:00,693 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:00,693 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:05,694 - INFO - 
+[ITERATION 9] 2026-04-30 12:01:05
+2026-04-30 12:01:05,719 - INFO - Node Resource Usage:
+2026-04-30 12:01:05,719 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:05,719 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:05,719 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:05,720 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:05,720 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:05,720 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:05,720 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:05,720 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:10,720 - INFO - 
+[ITERATION 10] 2026-04-30 12:01:10
+2026-04-30 12:01:10,751 - INFO - Node Resource Usage:
+2026-04-30 12:01:10,751 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:10,751 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:10,751 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:10,751 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:10,751 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:10,751 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:10,751 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:10,752 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:15,752 - INFO - 
+[ITERATION 11] 2026-04-30 12:01:15
+2026-04-30 12:01:15,781 - INFO - Node Resource Usage:
+2026-04-30 12:01:15,781 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:15,781 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:15,781 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:15,781 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:15,781 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:15,781 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:15,781 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:15,781 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:20,782 - INFO - 
+[ITERATION 12] 2026-04-30 12:01:20
+2026-04-30 12:01:20,808 - INFO - Node Resource Usage:
+2026-04-30 12:01:20,808 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:20,808 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:20,808 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:20,808 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:20,808 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:20,808 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:20,808 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:20,808 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:25,809 - INFO - 
+[ITERATION 13] 2026-04-30 12:01:25
+2026-04-30 12:01:25,836 - INFO - Node Resource Usage:
+2026-04-30 12:01:25,836 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:25,836 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:25,836 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:25,836 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:25,836 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:25,836 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:25,836 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:25,837 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:30,837 - INFO - 
+[ITERATION 14] 2026-04-30 12:01:30
+2026-04-30 12:01:30,864 - INFO - Node Resource Usage:
+2026-04-30 12:01:30,864 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:30,864 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:30,865 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:30,865 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:30,865 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:30,865 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:30,865 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:30,865 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:35,865 - INFO - 
+[ITERATION 15] 2026-04-30 12:01:35
+2026-04-30 12:01:35,894 - INFO - Node Resource Usage:
+2026-04-30 12:01:35,894 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:35,894 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:35,894 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:35,895 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:35,895 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:35,895 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:35,895 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:35,895 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:40,895 - INFO - 
+[ITERATION 16] 2026-04-30 12:01:40
+2026-04-30 12:01:40,923 - INFO - Node Resource Usage:
+2026-04-30 12:01:40,923 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:40,923 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:40,923 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:40,923 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:40,923 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:40,924 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:40,924 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:40,924 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:45,925 - INFO - 
+[ITERATION 17] 2026-04-30 12:01:45
+2026-04-30 12:01:45,957 - INFO - Node Resource Usage:
+2026-04-30 12:01:45,957 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:45,957 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:45,957 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:45,957 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:45,957 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:45,957 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:45,957 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:45,957 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:50,958 - INFO - 
+[ITERATION 18] 2026-04-30 12:01:50
+2026-04-30 12:01:50,991 - INFO - Node Resource Usage:
+2026-04-30 12:01:50,991 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:50,992 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:50,992 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:50,992 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:50,992 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:50,992 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:50,992 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:50,992 - INFO - Next check in 5 seconds...
+2026-04-30 12:01:55,992 - INFO - 
+[ITERATION 19] 2026-04-30 12:01:55
+2026-04-30 12:01:56,021 - INFO - Node Resource Usage:
+2026-04-30 12:01:56,021 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:01:56,022 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:01:56,022 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:01:56,022 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:01:56,022 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:01:56,022 - INFO - Decision Engine Analysis:
+2026-04-30 12:01:56,022 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:01:56,022 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:01,023 - INFO - 
+[ITERATION 20] 2026-04-30 12:02:01
+2026-04-30 12:02:01,054 - INFO - Node Resource Usage:
+2026-04-30 12:02:01,054 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:02:01,054 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:02:01,054 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:01,054 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:01,054 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:01,054 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:01,054 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:01,054 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:06,055 - INFO - 
+[ITERATION 21] 2026-04-30 12:02:06
+2026-04-30 12:02:06,102 - INFO - Node Resource Usage:
+2026-04-30 12:02:06,102 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:02:06,102 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:02:06,102 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:06,102 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:06,102 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:06,103 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:06,103 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:06,103 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:11,104 - INFO - 
+[ITERATION 22] 2026-04-30 12:02:11
+2026-04-30 12:02:11,133 - INFO - Node Resource Usage:
+2026-04-30 12:02:11,133 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:11,133 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:11,133 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:11,133 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:11,133 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:11,133 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:11,133 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:11,133 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:16,134 - INFO - 
+[ITERATION 23] 2026-04-30 12:02:16
+2026-04-30 12:02:16,163 - INFO - Node Resource Usage:
+2026-04-30 12:02:16,163 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:16,163 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:16,163 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:16,163 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:16,163 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:16,163 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:16,163 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:16,164 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:21,164 - INFO - 
+[ITERATION 24] 2026-04-30 12:02:21
+2026-04-30 12:02:21,192 - INFO - Node Resource Usage:
+2026-04-30 12:02:21,192 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:21,192 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:21,192 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:21,192 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:21,192 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:21,192 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:21,192 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:21,193 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:26,193 - INFO - 
+[ITERATION 25] 2026-04-30 12:02:26
+2026-04-30 12:02:26,221 - INFO - Node Resource Usage:
+2026-04-30 12:02:26,221 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:26,221 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:26,221 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:26,221 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:26,221 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:26,221 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:26,221 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:26,221 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:31,222 - INFO - 
+[ITERATION 26] 2026-04-30 12:02:31
+2026-04-30 12:02:31,251 - INFO - Node Resource Usage:
+2026-04-30 12:02:31,251 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:31,251 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:31,251 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:31,251 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:31,251 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:31,251 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:31,251 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:31,251 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:36,252 - INFO - 
+[ITERATION 27] 2026-04-30 12:02:36
+2026-04-30 12:02:36,280 - INFO - Node Resource Usage:
+2026-04-30 12:02:36,280 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:36,280 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:36,280 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:36,280 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:36,280 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:36,280 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:36,281 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:36,281 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:41,281 - INFO - 
+[ITERATION 28] 2026-04-30 12:02:41
+2026-04-30 12:02:41,308 - INFO - Node Resource Usage:
+2026-04-30 12:02:41,308 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:41,308 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:41,308 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:41,308 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:41,308 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:41,308 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:41,308 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:41,308 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:46,308 - INFO - 
+[ITERATION 29] 2026-04-30 12:02:46
+2026-04-30 12:02:46,336 - INFO - Node Resource Usage:
+2026-04-30 12:02:46,336 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:46,336 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:46,336 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:46,336 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:46,336 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:46,336 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:46,336 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:46,337 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:51,337 - INFO - 
+[ITERATION 30] 2026-04-30 12:02:51
+2026-04-30 12:02:51,367 - INFO - Node Resource Usage:
+2026-04-30 12:02:51,367 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:51,368 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:51,368 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:51,368 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:51,368 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:51,368 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:51,368 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:51,368 - INFO - Next check in 5 seconds...
+2026-04-30 12:02:56,369 - INFO - 
+[ITERATION 31] 2026-04-30 12:02:56
+2026-04-30 12:02:56,397 - INFO - Node Resource Usage:
+2026-04-30 12:02:56,397 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:02:56,397 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:02:56,397 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:02:56,397 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:02:56,397 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:02:56,397 - INFO - Decision Engine Analysis:
+2026-04-30 12:02:56,397 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:02:56,397 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:01,398 - INFO - 
+[ITERATION 32] 2026-04-30 12:03:01
+2026-04-30 12:03:01,427 - INFO - Node Resource Usage:
+2026-04-30 12:03:01,427 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:01,427 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:01,427 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:01,427 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:01,427 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:01,427 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:01,427 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:01,428 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:06,428 - INFO - 
+[ITERATION 33] 2026-04-30 12:03:06
+2026-04-30 12:03:06,458 - INFO - Node Resource Usage:
+2026-04-30 12:03:06,458 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:06,458 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:06,458 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:06,458 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:06,458 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:06,458 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:06,458 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:06,458 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:11,458 - INFO - 
+[ITERATION 34] 2026-04-30 12:03:11
+2026-04-30 12:03:11,489 - INFO - Node Resource Usage:
+2026-04-30 12:03:11,489 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:11,489 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:11,489 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:11,489 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:11,489 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:11,489 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:11,489 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:11,490 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:16,490 - INFO - 
+[ITERATION 35] 2026-04-30 12:03:16
+2026-04-30 12:03:16,517 - INFO - Node Resource Usage:
+2026-04-30 12:03:16,517 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:16,517 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:16,517 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:16,517 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:16,517 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:16,517 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:16,517 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:16,518 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:21,518 - INFO - 
+[ITERATION 36] 2026-04-30 12:03:21
+2026-04-30 12:03:21,551 - INFO - Node Resource Usage:
+2026-04-30 12:03:21,551 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:21,551 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:21,551 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:21,551 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:21,551 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:21,551 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:21,551 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:21,551 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:26,552 - INFO - 
+[ITERATION 37] 2026-04-30 12:03:26
+2026-04-30 12:03:26,580 - INFO - Node Resource Usage:
+2026-04-30 12:03:26,580 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:26,580 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:26,580 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:26,580 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:26,580 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:26,580 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:26,580 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:26,581 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:31,581 - INFO - 
+[ITERATION 38] 2026-04-30 12:03:31
+2026-04-30 12:03:31,608 - INFO - Node Resource Usage:
+2026-04-30 12:03:31,608 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:31,608 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:31,608 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:31,608 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:31,608 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:31,608 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:31,608 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:31,609 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:36,609 - INFO - 
+[ITERATION 39] 2026-04-30 12:03:36
+2026-04-30 12:03:36,640 - INFO - Node Resource Usage:
+2026-04-30 12:03:36,640 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:36,640 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:36,640 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:36,640 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:36,640 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:36,640 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:36,640 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:36,640 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:41,641 - INFO - 
+[ITERATION 40] 2026-04-30 12:03:41
+2026-04-30 12:03:41,669 - INFO - Node Resource Usage:
+2026-04-30 12:03:41,669 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:41,669 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:41,669 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:41,669 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:41,669 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:41,669 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:41,669 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:41,669 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:46,670 - INFO - 
+[ITERATION 41] 2026-04-30 12:03:46
+2026-04-30 12:03:46,696 - INFO - Node Resource Usage:
+2026-04-30 12:03:46,696 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:46,696 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:46,696 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:46,696 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:46,697 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:46,697 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:46,697 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:46,697 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:51,697 - INFO - 
+[ITERATION 42] 2026-04-30 12:03:51
+2026-04-30 12:03:51,725 - INFO - Node Resource Usage:
+2026-04-30 12:03:51,725 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:51,725 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:51,725 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:51,725 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:51,725 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:51,725 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:51,725 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:51,725 - INFO - Next check in 5 seconds...
+2026-04-30 12:03:56,726 - INFO - 
+[ITERATION 43] 2026-04-30 12:03:56
+2026-04-30 12:03:56,755 - INFO - Node Resource Usage:
+2026-04-30 12:03:56,755 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:03:56,755 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:03:56,755 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:03:56,756 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:03:56,756 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:03:56,756 - INFO - Decision Engine Analysis:
+2026-04-30 12:03:56,756 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:03:56,756 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:01,756 - INFO - 
+[ITERATION 44] 2026-04-30 12:04:01
+2026-04-30 12:04:01,785 - INFO - Node Resource Usage:
+2026-04-30 12:04:01,785 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:04:01,785 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:04:01,785 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:01,785 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:01,785 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:01,785 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:01,785 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:01,786 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:06,786 - INFO - 
+[ITERATION 45] 2026-04-30 12:04:06
+2026-04-30 12:04:06,812 - INFO - Node Resource Usage:
+2026-04-30 12:04:06,812 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:06,812 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:06,812 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:06,812 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:06,812 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:06,812 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:06,812 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:06,813 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:11,813 - INFO - 
+[ITERATION 46] 2026-04-30 12:04:11
+2026-04-30 12:04:11,845 - INFO - Node Resource Usage:
+2026-04-30 12:04:11,845 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:11,845 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:11,845 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:11,845 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:11,845 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:11,845 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:11,845 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:11,845 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:16,846 - INFO - 
+[ITERATION 47] 2026-04-30 12:04:16
+2026-04-30 12:04:16,874 - INFO - Node Resource Usage:
+2026-04-30 12:04:16,874 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:16,874 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:16,874 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:16,874 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:16,874 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:16,874 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:16,874 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:16,875 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:21,875 - INFO - 
+[ITERATION 48] 2026-04-30 12:04:21
+2026-04-30 12:04:21,902 - INFO - Node Resource Usage:
+2026-04-30 12:04:21,902 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:21,902 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:21,902 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:21,902 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:21,902 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:21,902 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:21,902 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:21,902 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:26,903 - INFO - 
+[ITERATION 49] 2026-04-30 12:04:26
+2026-04-30 12:04:26,932 - INFO - Node Resource Usage:
+2026-04-30 12:04:26,933 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:26,933 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:26,933 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:26,933 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:26,933 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:26,933 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:26,933 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:26,933 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:31,934 - INFO - 
+[ITERATION 50] 2026-04-30 12:04:31
+2026-04-30 12:04:31,963 - INFO - Node Resource Usage:
+2026-04-30 12:04:31,963 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:31,963 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:31,963 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:31,963 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:31,963 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:31,963 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:31,963 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:31,964 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:36,964 - INFO - 
+[ITERATION 51] 2026-04-30 12:04:36
+2026-04-30 12:04:36,992 - INFO - Node Resource Usage:
+2026-04-30 12:04:36,992 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:36,992 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:36,992 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:36,992 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:36,992 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:36,992 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:36,992 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:36,993 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:41,993 - INFO - 
+[ITERATION 52] 2026-04-30 12:04:41
+2026-04-30 12:04:42,028 - INFO - Node Resource Usage:
+2026-04-30 12:04:42,028 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:42,028 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:42,028 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:42,028 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:42,028 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:42,028 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:42,028 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:42,029 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:47,029 - INFO - 
+[ITERATION 53] 2026-04-30 12:04:47
+2026-04-30 12:04:47,059 - INFO - Node Resource Usage:
+2026-04-30 12:04:47,059 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:47,059 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:47,059 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:47,059 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:47,059 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:47,059 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:47,059 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:47,059 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:52,060 - INFO - 
+[ITERATION 54] 2026-04-30 12:04:52
+2026-04-30 12:04:52,088 - INFO - Node Resource Usage:
+2026-04-30 12:04:52,088 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:52,088 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:52,088 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:52,088 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:52,088 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:52,088 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:52,088 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:52,088 - INFO - Next check in 5 seconds...
+2026-04-30 12:04:57,089 - INFO - 
+[ITERATION 55] 2026-04-30 12:04:57
+2026-04-30 12:04:57,117 - INFO - Node Resource Usage:
+2026-04-30 12:04:57,117 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:04:57,117 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:04:57,117 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:04:57,117 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:04:57,117 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:04:57,117 - INFO - Decision Engine Analysis:
+2026-04-30 12:04:57,117 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:04:57,118 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:02,118 - INFO - 
+[ITERATION 56] 2026-04-30 12:05:02
+2026-04-30 12:05:02,149 - INFO - Node Resource Usage:
+2026-04-30 12:05:02,149 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:05:02,149 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:05:02,149 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:02,149 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:02,149 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:02,149 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:02,149 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:02,150 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:07,150 - INFO - 
+[ITERATION 57] 2026-04-30 12:05:07
+2026-04-30 12:05:07,178 - INFO - Node Resource Usage:
+2026-04-30 12:05:07,178 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:07,178 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:07,178 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:07,178 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:07,178 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:07,178 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:07,178 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:07,179 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:12,179 - INFO - 
+[ITERATION 58] 2026-04-30 12:05:12
+2026-04-30 12:05:12,205 - INFO - Node Resource Usage:
+2026-04-30 12:05:12,205 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:12,205 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:12,205 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:12,205 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:12,205 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:12,205 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:12,205 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:12,205 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:17,206 - INFO - 
+[ITERATION 59] 2026-04-30 12:05:17
+2026-04-30 12:05:17,236 - INFO - Node Resource Usage:
+2026-04-30 12:05:17,236 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:17,236 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:17,236 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:17,236 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:17,236 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:17,236 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:17,236 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:17,237 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:22,237 - INFO - 
+[ITERATION 60] 2026-04-30 12:05:22
+2026-04-30 12:05:22,267 - INFO - Node Resource Usage:
+2026-04-30 12:05:22,267 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:22,267 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:22,267 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:22,267 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:22,267 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:22,267 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:22,267 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:22,268 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:27,268 - INFO - 
+[ITERATION 61] 2026-04-30 12:05:27
+2026-04-30 12:05:27,294 - INFO - Node Resource Usage:
+2026-04-30 12:05:27,294 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:27,294 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:27,294 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:27,294 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:27,294 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:27,294 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:27,294 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:27,295 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:32,295 - INFO - 
+[ITERATION 62] 2026-04-30 12:05:32
+2026-04-30 12:05:32,323 - INFO - Node Resource Usage:
+2026-04-30 12:05:32,323 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:32,323 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:32,323 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:32,323 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:32,323 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:32,323 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:32,323 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:32,324 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:37,324 - INFO - 
+[ITERATION 63] 2026-04-30 12:05:37
+2026-04-30 12:05:37,357 - INFO - Node Resource Usage:
+2026-04-30 12:05:37,357 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:37,358 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:37,358 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:37,358 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:37,358 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:37,358 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:37,358 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:37,358 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:42,359 - INFO - 
+[ITERATION 64] 2026-04-30 12:05:42
+2026-04-30 12:05:42,392 - INFO - Node Resource Usage:
+2026-04-30 12:05:42,392 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:42,392 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:42,392 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:42,392 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:42,392 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:42,392 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:42,392 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:42,392 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:47,393 - INFO - 
+[ITERATION 65] 2026-04-30 12:05:47
+2026-04-30 12:05:47,420 - INFO - Node Resource Usage:
+2026-04-30 12:05:47,420 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:47,420 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:47,420 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:47,420 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:47,420 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:47,420 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:47,420 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:47,420 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:52,421 - INFO - 
+[ITERATION 66] 2026-04-30 12:05:52
+2026-04-30 12:05:52,448 - INFO - Node Resource Usage:
+2026-04-30 12:05:52,448 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:52,448 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:52,448 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:52,448 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:52,448 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:52,448 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:52,448 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:52,449 - INFO - Next check in 5 seconds...
+2026-04-30 12:05:57,449 - INFO - 
+[ITERATION 67] 2026-04-30 12:05:57
+2026-04-30 12:05:57,479 - INFO - Node Resource Usage:
+2026-04-30 12:05:57,479 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:05:57,479 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:05:57,479 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:05:57,479 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:05:57,479 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:05:57,479 - INFO - Decision Engine Analysis:
+2026-04-30 12:05:57,479 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:05:57,479 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:02,480 - INFO - 
+[ITERATION 68] 2026-04-30 12:06:02
+2026-04-30 12:06:02,507 - INFO - Node Resource Usage:
+2026-04-30 12:06:02,507 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:06:02,507 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:06:02,507 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:02,507 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:02,507 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:02,507 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:02,507 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:02,507 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:07,508 - INFO - 
+[ITERATION 69] 2026-04-30 12:06:07
+2026-04-30 12:06:07,542 - INFO - Node Resource Usage:
+2026-04-30 12:06:07,542 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:07,542 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:07,542 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:07,542 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:07,542 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:07,542 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:07,542 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:07,542 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:12,542 - INFO - 
+[ITERATION 70] 2026-04-30 12:06:12
+2026-04-30 12:06:12,572 - INFO - Node Resource Usage:
+2026-04-30 12:06:12,572 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:12,572 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:12,572 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:12,572 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:12,572 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:12,572 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:12,572 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:12,572 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:17,573 - INFO - 
+[ITERATION 71] 2026-04-30 12:06:17
+2026-04-30 12:06:17,601 - INFO - Node Resource Usage:
+2026-04-30 12:06:17,601 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:17,601 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:17,601 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:17,601 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:17,601 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:17,601 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:17,601 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:17,602 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:22,602 - INFO - 
+[ITERATION 72] 2026-04-30 12:06:22
+2026-04-30 12:06:22,632 - INFO - Node Resource Usage:
+2026-04-30 12:06:22,632 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:22,632 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:22,633 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:22,633 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:22,633 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:22,633 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:22,633 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:22,633 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:27,633 - INFO - 
+[ITERATION 73] 2026-04-30 12:06:27
+2026-04-30 12:06:27,678 - INFO - Node Resource Usage:
+2026-04-30 12:06:27,678 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:27,678 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:27,678 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:27,678 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:27,678 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:27,678 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:27,678 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:27,678 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:32,679 - INFO - 
+[ITERATION 74] 2026-04-30 12:06:32
+2026-04-30 12:06:32,708 - INFO - Node Resource Usage:
+2026-04-30 12:06:32,708 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:32,708 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:32,708 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:32,708 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:32,709 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:32,709 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:32,709 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:32,709 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:37,710 - INFO - 
+[ITERATION 75] 2026-04-30 12:06:37
+2026-04-30 12:06:37,754 - INFO - Node Resource Usage:
+2026-04-30 12:06:37,754 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:37,754 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:37,754 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:37,754 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:37,754 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:37,754 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:37,754 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:37,754 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:42,755 - INFO - 
+[ITERATION 76] 2026-04-30 12:06:42
+2026-04-30 12:06:42,836 - INFO - Node Resource Usage:
+2026-04-30 12:06:42,836 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:42,836 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:42,837 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:42,837 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:42,837 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:42,837 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:42,837 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:42,837 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:47,838 - INFO - 
+[ITERATION 77] 2026-04-30 12:06:47
+2026-04-30 12:06:47,867 - INFO - Node Resource Usage:
+2026-04-30 12:06:47,867 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:47,867 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:47,867 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:47,867 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:47,867 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:47,867 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:47,867 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:47,868 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:52,868 - INFO - 
+[ITERATION 78] 2026-04-30 12:06:52
+2026-04-30 12:06:52,896 - INFO - Node Resource Usage:
+2026-04-30 12:06:52,896 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:52,896 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:52,896 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:52,896 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:52,896 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:52,896 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:52,896 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:52,896 - INFO - Next check in 5 seconds...
+2026-04-30 12:06:57,897 - INFO - 
+[ITERATION 79] 2026-04-30 12:06:57
+2026-04-30 12:06:57,927 - INFO - Node Resource Usage:
+2026-04-30 12:06:57,927 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:06:57,927 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:06:57,927 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:06:57,927 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:06:57,927 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:06:57,927 - INFO - Decision Engine Analysis:
+2026-04-30 12:06:57,927 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:06:57,928 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:02,928 - INFO - 
+[ITERATION 80] 2026-04-30 12:07:02
+2026-04-30 12:07:02,960 - INFO - Node Resource Usage:
+2026-04-30 12:07:02,960 - INFO -   Node: minikube | CPU: 0.3% | Memory: 9.7%
+2026-04-30 12:07:02,960 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.3%, Memory: 9.7%)
+2026-04-30 12:07:02,960 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:02,960 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:02,960 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:02,960 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:02,960 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:02,960 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:07,961 - INFO - 
+[ITERATION 81] 2026-04-30 12:07:07
+2026-04-30 12:07:07,995 - INFO - Node Resource Usage:
+2026-04-30 12:07:07,995 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:07,995 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:07,995 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:07,995 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:07,995 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:07,995 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:07,995 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:07,996 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:12,996 - INFO - 
+[ITERATION 82] 2026-04-30 12:07:12
+2026-04-30 12:07:13,025 - INFO - Node Resource Usage:
+2026-04-30 12:07:13,025 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:13,026 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:13,026 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:13,026 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:13,026 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:13,026 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:13,026 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:13,026 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:18,026 - INFO - 
+[ITERATION 83] 2026-04-30 12:07:18
+2026-04-30 12:07:18,057 - INFO - Node Resource Usage:
+2026-04-30 12:07:18,057 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:18,057 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:18,057 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:18,057 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:18,057 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:18,057 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:18,057 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:18,058 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:23,058 - INFO - 
+[ITERATION 84] 2026-04-30 12:07:23
+2026-04-30 12:07:23,084 - INFO - Node Resource Usage:
+2026-04-30 12:07:23,084 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:23,084 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:23,084 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:23,084 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:23,084 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:23,084 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:23,084 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:23,084 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:28,085 - INFO - 
+[ITERATION 85] 2026-04-30 12:07:28
+2026-04-30 12:07:28,114 - INFO - Node Resource Usage:
+2026-04-30 12:07:28,114 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:28,114 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:28,114 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:28,114 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:28,114 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:28,114 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:28,114 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:28,115 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:33,115 - INFO - 
+[ITERATION 86] 2026-04-30 12:07:33
+2026-04-30 12:07:33,144 - INFO - Node Resource Usage:
+2026-04-30 12:07:33,145 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:33,145 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:33,145 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:33,145 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:33,145 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:33,145 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:33,145 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:33,145 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:38,146 - INFO - 
+[ITERATION 87] 2026-04-30 12:07:38
+2026-04-30 12:07:38,187 - INFO - Node Resource Usage:
+2026-04-30 12:07:38,187 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:38,188 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:38,188 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:38,188 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:38,188 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:38,188 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:38,188 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:38,188 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:43,189 - INFO - 
+[ITERATION 88] 2026-04-30 12:07:43
+2026-04-30 12:07:43,216 - INFO - Node Resource Usage:
+2026-04-30 12:07:43,216 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:43,216 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:43,216 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:43,216 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:43,216 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:43,216 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:43,216 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:43,217 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:48,217 - INFO - 
+[ITERATION 89] 2026-04-30 12:07:48
+2026-04-30 12:07:48,244 - INFO - Node Resource Usage:
+2026-04-30 12:07:48,244 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:48,245 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:48,245 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:48,245 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:48,245 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:48,245 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:48,245 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:48,245 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:53,245 - INFO - 
+[ITERATION 90] 2026-04-30 12:07:53
+2026-04-30 12:07:53,274 - INFO - Node Resource Usage:
+2026-04-30 12:07:53,274 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:53,274 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:53,274 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:53,274 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:53,274 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:53,274 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:53,274 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:53,274 - INFO - Next check in 5 seconds...
+2026-04-30 12:07:58,275 - INFO - 
+[ITERATION 91] 2026-04-30 12:07:58
+2026-04-30 12:07:58,302 - INFO - Node Resource Usage:
+2026-04-30 12:07:58,302 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:07:58,302 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:07:58,302 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:07:58,302 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:07:58,302 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:07:58,302 - INFO - Decision Engine Analysis:
+2026-04-30 12:07:58,302 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:07:58,303 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:03,303 - INFO - 
+[ITERATION 92] 2026-04-30 12:08:03
+2026-04-30 12:08:03,330 - INFO - Node Resource Usage:
+2026-04-30 12:08:03,330 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.6%
+2026-04-30 12:08:03,330 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.6%)
+2026-04-30 12:08:03,330 - INFO -   Node: minikube-m02 | CPU: 8.3% | Memory: 3.2%
+2026-04-30 12:08:03,330 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:08:03,330 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:08:03,330 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:03,330 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:03,330 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:08,331 - INFO - 
+[ITERATION 93] 2026-04-30 12:08:08
+2026-04-30 12:08:08,357 - INFO - Node Resource Usage:
+2026-04-30 12:08:08,357 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:08,357 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:08,358 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:08,358 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:08,358 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:08,358 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:08,358 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:08,358 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:08,358 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:13,358 - INFO - 
+[ITERATION 94] 2026-04-30 12:08:13
+2026-04-30 12:08:13,396 - INFO - Node Resource Usage:
+2026-04-30 12:08:13,396 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:13,396 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:13,396 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:13,396 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:13,396 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:13,396 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:13,396 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:13,396 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:13,396 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:18,397 - INFO - 
+[ITERATION 95] 2026-04-30 12:08:18
+2026-04-30 12:08:18,424 - INFO - Node Resource Usage:
+2026-04-30 12:08:18,424 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:18,424 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:18,424 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:18,424 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:18,425 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:18,425 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:18,425 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:18,425 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:18,425 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:23,425 - INFO - 
+[ITERATION 96] 2026-04-30 12:08:23
+2026-04-30 12:08:23,461 - INFO - Node Resource Usage:
+2026-04-30 12:08:23,461 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:23,461 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:23,461 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:23,461 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:23,461 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:23,461 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:23,461 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:23,461 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:23,461 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:28,462 - INFO - 
+[ITERATION 97] 2026-04-30 12:08:28
+2026-04-30 12:08:28,491 - INFO - Node Resource Usage:
+2026-04-30 12:08:28,491 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:28,491 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:28,491 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:28,491 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:28,491 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:28,491 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:28,491 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:28,491 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:28,492 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:33,493 - INFO - 
+[ITERATION 98] 2026-04-30 12:08:33
+2026-04-30 12:08:33,520 - INFO - Node Resource Usage:
+2026-04-30 12:08:33,520 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:33,520 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:33,520 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:33,520 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:33,521 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:33,521 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:33,521 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:33,521 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:33,521 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:38,521 - INFO - 
+[ITERATION 99] 2026-04-30 12:08:38
+2026-04-30 12:08:38,550 - INFO - Node Resource Usage:
+2026-04-30 12:08:38,550 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:38,550 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:38,550 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:38,550 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:38,550 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:38,550 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:38,550 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:38,550 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:38,550 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:43,551 - INFO - 
+[ITERATION 100] 2026-04-30 12:08:43
+2026-04-30 12:08:43,578 - INFO - Node Resource Usage:
+2026-04-30 12:08:43,578 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:43,579 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:43,579 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:43,579 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:43,579 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:43,579 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:43,579 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:43,579 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:43,579 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:48,580 - INFO - 
+[ITERATION 101] 2026-04-30 12:08:48
+2026-04-30 12:08:48,607 - INFO - Node Resource Usage:
+2026-04-30 12:08:48,607 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:48,607 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:48,607 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:48,607 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:48,607 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:48,607 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:48,607 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:48,607 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:48,608 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:53,608 - INFO - 
+[ITERATION 102] 2026-04-30 12:08:53
+2026-04-30 12:08:53,635 - INFO - Node Resource Usage:
+2026-04-30 12:08:53,635 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:53,635 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:53,636 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:53,636 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:53,636 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:53,636 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:53,636 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:53,636 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:53,636 - INFO - Next check in 5 seconds...
+2026-04-30 12:08:58,636 - INFO - 
+[ITERATION 103] 2026-04-30 12:08:58
+2026-04-30 12:08:58,663 - INFO - Node Resource Usage:
+2026-04-30 12:08:58,664 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:08:58,664 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:08:58,664 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:08:58,664 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:08:58,664 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:08:58,664 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:08:58,664 - INFO - Decision Engine Analysis:
+2026-04-30 12:08:58,664 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:08:58,664 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:03,664 - INFO - 
+[ITERATION 104] 2026-04-30 12:09:03
+2026-04-30 12:09:03,691 - INFO - Node Resource Usage:
+2026-04-30 12:09:03,691 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:09:03,691 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:09:03,692 - INFO -   Node: minikube-m02 | CPU: 3.9% | Memory: 2.8%
+2026-04-30 12:09:03,692 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 3.9%, Memory: 2.8%)
+2026-04-30 12:09:03,692 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:09:03,692 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:09:03,692 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:03,692 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:03,692 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:08,692 - INFO - 
+[ITERATION 105] 2026-04-30 12:09:08
+2026-04-30 12:09:08,720 - INFO - Node Resource Usage:
+2026-04-30 12:09:08,720 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:08,720 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:08,720 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:08,720 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:08,720 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:08,720 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:08,720 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:08,720 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:08,720 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:13,721 - INFO - 
+[ITERATION 106] 2026-04-30 12:09:13
+2026-04-30 12:09:13,749 - INFO - Node Resource Usage:
+2026-04-30 12:09:13,749 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:13,749 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:13,749 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:13,749 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:13,749 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:13,749 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:13,749 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:13,749 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:13,749 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:18,750 - INFO - 
+[ITERATION 107] 2026-04-30 12:09:18
+2026-04-30 12:09:18,779 - INFO - Node Resource Usage:
+2026-04-30 12:09:18,779 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:18,779 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:18,779 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:18,779 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:18,779 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:18,779 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:18,779 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:18,779 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:18,780 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:23,780 - INFO - 
+[ITERATION 108] 2026-04-30 12:09:23
+2026-04-30 12:09:23,807 - INFO - Node Resource Usage:
+2026-04-30 12:09:23,807 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:23,807 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:23,807 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:23,808 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:23,808 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:23,808 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:23,808 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:23,808 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:23,808 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:28,809 - INFO - 
+[ITERATION 109] 2026-04-30 12:09:28
+2026-04-30 12:09:28,836 - INFO - Node Resource Usage:
+2026-04-30 12:09:28,836 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:28,836 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:28,836 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:28,836 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:28,836 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:28,836 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:28,836 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:28,836 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:28,837 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:33,837 - INFO - 
+[ITERATION 110] 2026-04-30 12:09:33
+2026-04-30 12:09:33,866 - INFO - Node Resource Usage:
+2026-04-30 12:09:33,866 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:33,866 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:33,867 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:33,867 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:33,867 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:33,867 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:33,867 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:33,867 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:33,867 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:38,867 - INFO - 
+[ITERATION 111] 2026-04-30 12:09:38
+2026-04-30 12:09:38,925 - INFO - Node Resource Usage:
+2026-04-30 12:09:38,925 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:38,925 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:38,925 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:38,925 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:38,925 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:38,925 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:38,925 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:38,925 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:38,926 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:43,926 - INFO - 
+[ITERATION 112] 2026-04-30 12:09:43
+2026-04-30 12:09:43,966 - INFO - Node Resource Usage:
+2026-04-30 12:09:43,966 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:43,966 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:43,966 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:43,966 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:43,966 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:43,966 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:43,966 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:43,967 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:43,967 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:48,967 - INFO - 
+[ITERATION 113] 2026-04-30 12:09:48
+2026-04-30 12:09:48,997 - INFO - Node Resource Usage:
+2026-04-30 12:09:48,997 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:48,997 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:48,997 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:48,997 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:48,997 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:48,997 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:48,997 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:48,997 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:48,998 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:53,998 - INFO - 
+[ITERATION 114] 2026-04-30 12:09:53
+2026-04-30 12:09:54,027 - INFO - Node Resource Usage:
+2026-04-30 12:09:54,027 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:54,027 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:54,027 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:54,027 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:54,027 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:54,027 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:54,027 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:54,027 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:54,027 - INFO - Next check in 5 seconds...
+2026-04-30 12:09:59,027 - INFO - 
+[ITERATION 115] 2026-04-30 12:09:59
+2026-04-30 12:09:59,056 - INFO - Node Resource Usage:
+2026-04-30 12:09:59,056 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:09:59,056 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:09:59,056 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:09:59,056 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:09:59,056 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:09:59,056 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:09:59,056 - INFO - Decision Engine Analysis:
+2026-04-30 12:09:59,056 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:09:59,056 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:04,057 - INFO - 
+[ITERATION 116] 2026-04-30 12:10:04
+2026-04-30 12:10:04,085 - INFO - Node Resource Usage:
+2026-04-30 12:10:04,085 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:04,085 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:04,085 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:04,085 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:04,085 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:04,085 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:04,085 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:04,085 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:04,086 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:09,086 - INFO - 
+[ITERATION 117] 2026-04-30 12:10:09
+2026-04-30 12:10:09,114 - INFO - Node Resource Usage:
+2026-04-30 12:10:09,114 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:09,114 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:09,114 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:09,114 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:09,114 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:09,114 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:09,114 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:09,114 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:09,114 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:14,115 - INFO - 
+[ITERATION 118] 2026-04-30 12:10:14
+2026-04-30 12:10:14,144 - INFO - Node Resource Usage:
+2026-04-30 12:10:14,144 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:14,144 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:14,144 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:14,144 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:14,144 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:14,144 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:14,144 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:14,144 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:14,145 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:19,145 - INFO - 
+[ITERATION 119] 2026-04-30 12:10:19
+2026-04-30 12:10:19,174 - INFO - Node Resource Usage:
+2026-04-30 12:10:19,174 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:19,174 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:19,174 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:19,174 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:19,174 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:19,174 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:19,174 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:19,174 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:19,174 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:24,175 - INFO - 
+[ITERATION 120] 2026-04-30 12:10:24
+2026-04-30 12:10:24,203 - INFO - Node Resource Usage:
+2026-04-30 12:10:24,203 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:24,203 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:24,203 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:24,203 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:24,203 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:24,203 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:24,203 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:24,203 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:24,204 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:29,204 - INFO - 
+[ITERATION 121] 2026-04-30 12:10:29
+2026-04-30 12:10:29,233 - INFO - Node Resource Usage:
+2026-04-30 12:10:29,233 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:29,233 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:29,233 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:29,233 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:29,233 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:29,233 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:29,233 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:29,233 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:29,233 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:34,233 - INFO - 
+[ITERATION 122] 2026-04-30 12:10:34
+2026-04-30 12:10:34,261 - INFO - Node Resource Usage:
+2026-04-30 12:10:34,261 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:34,261 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:34,261 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:34,261 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:34,261 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:34,261 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:34,261 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:34,261 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:34,262 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:39,262 - INFO - 
+[ITERATION 123] 2026-04-30 12:10:39
+2026-04-30 12:10:39,289 - INFO - Node Resource Usage:
+2026-04-30 12:10:39,289 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:39,289 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:39,289 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:39,289 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:39,289 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:39,289 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:39,289 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:39,289 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:39,290 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:44,290 - INFO - 
+[ITERATION 124] 2026-04-30 12:10:44
+2026-04-30 12:10:44,316 - INFO - Node Resource Usage:
+2026-04-30 12:10:44,317 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:44,317 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:44,317 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:44,317 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:44,317 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:44,317 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:44,317 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:44,317 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:44,317 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:49,317 - INFO - 
+[ITERATION 125] 2026-04-30 12:10:49
+2026-04-30 12:10:49,346 - INFO - Node Resource Usage:
+2026-04-30 12:10:49,346 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:49,346 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:49,346 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:49,346 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:49,346 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:49,346 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:49,346 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:49,346 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:49,346 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:54,347 - INFO - 
+[ITERATION 126] 2026-04-30 12:10:54
+2026-04-30 12:10:54,379 - INFO - Node Resource Usage:
+2026-04-30 12:10:54,379 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:54,379 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:54,379 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:54,379 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:54,379 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:54,379 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:54,379 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:54,379 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:54,380 - INFO - Next check in 5 seconds...
+2026-04-30 12:10:59,380 - INFO - 
+[ITERATION 127] 2026-04-30 12:10:59
+2026-04-30 12:10:59,408 - INFO - Node Resource Usage:
+2026-04-30 12:10:59,408 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:10:59,408 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:10:59,408 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:10:59,408 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:10:59,408 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:10:59,408 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:10:59,408 - INFO - Decision Engine Analysis:
+2026-04-30 12:10:59,408 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:10:59,408 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:04,409 - INFO - 
+[ITERATION 128] 2026-04-30 12:11:04
+2026-04-30 12:11:04,437 - INFO - Node Resource Usage:
+2026-04-30 12:11:04,437 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:11:04,437 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:11:04,437 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:04,437 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:04,437 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:11:04,437 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:11:04,437 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:04,437 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:04,438 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:09,438 - INFO - 
+[ITERATION 129] 2026-04-30 12:11:09
+2026-04-30 12:11:09,465 - INFO - Node Resource Usage:
+2026-04-30 12:11:09,465 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:09,466 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:09,466 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:09,466 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:09,466 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:09,466 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:09,466 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:09,466 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:09,466 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:14,467 - INFO - 
+[ITERATION 130] 2026-04-30 12:11:14
+2026-04-30 12:11:14,494 - INFO - Node Resource Usage:
+2026-04-30 12:11:14,494 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:14,494 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:14,494 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:14,494 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:14,494 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:14,494 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:14,494 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:14,494 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:14,494 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:19,495 - INFO - 
+[ITERATION 131] 2026-04-30 12:11:19
+2026-04-30 12:11:19,522 - INFO - Node Resource Usage:
+2026-04-30 12:11:19,522 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:19,522 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:19,522 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:19,522 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:19,522 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:19,522 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:19,522 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:19,522 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:19,522 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:24,523 - INFO - 
+[ITERATION 132] 2026-04-30 12:11:24
+2026-04-30 12:11:24,550 - INFO - Node Resource Usage:
+2026-04-30 12:11:24,550 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:24,550 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:24,550 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:24,550 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:24,550 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:24,550 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:24,550 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:24,550 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:24,551 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:29,551 - INFO - 
+[ITERATION 133] 2026-04-30 12:11:29
+2026-04-30 12:11:29,578 - INFO - Node Resource Usage:
+2026-04-30 12:11:29,578 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:29,578 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:29,578 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:29,578 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:29,578 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:29,578 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:29,578 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:29,578 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:29,578 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:34,579 - INFO - 
+[ITERATION 134] 2026-04-30 12:11:34
+2026-04-30 12:11:34,606 - INFO - Node Resource Usage:
+2026-04-30 12:11:34,606 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:34,606 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:34,606 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:34,606 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:34,606 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:34,606 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:34,606 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:34,606 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:34,607 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:39,607 - INFO - 
+[ITERATION 135] 2026-04-30 12:11:39
+2026-04-30 12:11:39,642 - INFO - Node Resource Usage:
+2026-04-30 12:11:39,642 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:39,642 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:39,642 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:39,642 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:39,642 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:39,642 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:39,642 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:39,642 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:39,642 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:44,643 - INFO - 
+[ITERATION 136] 2026-04-30 12:11:44
+2026-04-30 12:11:44,670 - INFO - Node Resource Usage:
+2026-04-30 12:11:44,670 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:44,670 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:44,670 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:44,670 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:44,670 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:44,670 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:44,670 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:44,670 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:44,671 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:49,671 - INFO - 
+[ITERATION 137] 2026-04-30 12:11:49
+2026-04-30 12:11:49,697 - INFO - Node Resource Usage:
+2026-04-30 12:11:49,697 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:49,698 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:49,698 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:49,698 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:49,698 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:49,698 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:49,698 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:49,698 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:49,698 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:54,698 - INFO - 
+[ITERATION 138] 2026-04-30 12:11:54
+2026-04-30 12:11:54,726 - INFO - Node Resource Usage:
+2026-04-30 12:11:54,726 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:54,726 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:54,726 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:54,726 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:54,726 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:54,726 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:54,726 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:54,726 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:54,726 - INFO - Next check in 5 seconds...
+2026-04-30 12:11:59,727 - INFO - 
+[ITERATION 139] 2026-04-30 12:11:59
+2026-04-30 12:11:59,757 - INFO - Node Resource Usage:
+2026-04-30 12:11:59,757 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:11:59,757 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:11:59,757 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:11:59,757 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:11:59,757 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:11:59,757 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:11:59,757 - INFO - Decision Engine Analysis:
+2026-04-30 12:11:59,757 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:11:59,758 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:04,758 - INFO - 
+[ITERATION 140] 2026-04-30 12:12:04
+2026-04-30 12:12:04,786 - INFO - Node Resource Usage:
+2026-04-30 12:12:04,787 - INFO -   Node: minikube | CPU: 0.5% | Memory: 9.8%
+2026-04-30 12:12:04,787 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.5%, Memory: 9.8%)
+2026-04-30 12:12:04,787 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:04,787 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:04,787 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:12:04,787 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:12:04,787 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:04,787 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:04,787 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:09,788 - INFO - 
+[ITERATION 141] 2026-04-30 12:12:09
+2026-04-30 12:12:09,814 - INFO - Node Resource Usage:
+2026-04-30 12:12:09,814 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:09,814 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:09,814 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:09,814 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:09,814 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:09,814 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:09,814 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:09,815 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:09,815 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:14,815 - INFO - 
+[ITERATION 142] 2026-04-30 12:12:14
+2026-04-30 12:12:14,843 - INFO - Node Resource Usage:
+2026-04-30 12:12:14,843 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:14,843 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:14,843 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:14,843 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:14,843 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:14,843 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:14,843 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:14,843 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:14,843 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:19,844 - INFO - 
+[ITERATION 143] 2026-04-30 12:12:19
+2026-04-30 12:12:19,872 - INFO - Node Resource Usage:
+2026-04-30 12:12:19,872 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:19,872 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:19,872 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:19,872 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:19,872 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:19,872 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:19,872 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:19,872 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:19,872 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:24,873 - INFO - 
+[ITERATION 144] 2026-04-30 12:12:24
+2026-04-30 12:12:24,901 - INFO - Node Resource Usage:
+2026-04-30 12:12:24,901 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:24,901 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:24,902 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:24,902 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:24,902 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:24,902 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:24,902 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:24,902 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:24,902 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:29,903 - INFO - 
+[ITERATION 145] 2026-04-30 12:12:29
+2026-04-30 12:12:29,930 - INFO - Node Resource Usage:
+2026-04-30 12:12:29,930 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:29,930 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:29,930 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:29,930 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:29,930 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:29,930 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:29,930 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:29,930 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:29,931 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:34,931 - INFO - 
+[ITERATION 146] 2026-04-30 12:12:34
+2026-04-30 12:12:34,975 - INFO - Node Resource Usage:
+2026-04-30 12:12:34,975 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:34,975 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:34,975 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:34,975 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:34,976 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:34,976 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:34,976 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:34,976 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:34,976 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:39,976 - INFO - 
+[ITERATION 147] 2026-04-30 12:12:39
+2026-04-30 12:12:40,005 - INFO - Node Resource Usage:
+2026-04-30 12:12:40,006 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:40,006 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:40,006 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:40,006 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:40,006 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:40,006 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:40,006 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:40,006 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:40,006 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:45,006 - INFO - 
+[ITERATION 148] 2026-04-30 12:12:45
+2026-04-30 12:12:45,040 - INFO - Node Resource Usage:
+2026-04-30 12:12:45,040 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:45,041 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:45,041 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:45,041 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:45,041 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:45,041 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:45,041 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:45,041 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:45,041 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:50,041 - INFO - 
+[ITERATION 149] 2026-04-30 12:12:50
+2026-04-30 12:12:50,068 - INFO - Node Resource Usage:
+2026-04-30 12:12:50,068 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:50,068 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:50,068 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:50,068 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:50,068 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:50,068 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:50,068 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:50,068 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:50,069 - INFO - Next check in 5 seconds...
+2026-04-30 12:12:55,069 - INFO - 
+[ITERATION 150] 2026-04-30 12:12:55
+2026-04-30 12:12:55,096 - INFO - Node Resource Usage:
+2026-04-30 12:12:55,096 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:12:55,096 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:12:55,096 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:12:55,096 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:12:55,096 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:12:55,096 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:12:55,096 - INFO - Decision Engine Analysis:
+2026-04-30 12:12:55,096 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:12:55,097 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:00,097 - INFO - 
+[ITERATION 151] 2026-04-30 12:13:00
+2026-04-30 12:13:00,125 - INFO - Node Resource Usage:
+2026-04-30 12:13:00,125 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:13:00,125 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:13:00,125 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:00,125 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:00,125 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:13:00,125 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:13:00,125 - INFO - Decision Engine Analysis:
+2026-04-30 12:13:00,125 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:13:00,126 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:05,126 - INFO - 
+[ITERATION 152] 2026-04-30 12:13:05
+2026-04-30 12:13:05,153 - INFO - Node Resource Usage:
+2026-04-30 12:13:05,153 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.7%
+2026-04-30 12:13:05,153 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.7%)
+2026-04-30 12:13:05,153 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:05,153 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:05,153 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.0%
+2026-04-30 12:13:05,153 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.0%)
+2026-04-30 12:13:05,153 - INFO - Decision Engine Analysis:
+2026-04-30 12:13:05,153 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:13:05,153 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:10,154 - INFO - 
+[ITERATION 153] 2026-04-30 12:13:10
+2026-04-30 12:13:10,181 - INFO - Node Resource Usage:
+2026-04-30 12:13:10,181 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:13:10,181 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:13:10,182 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:10,182 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:10,182 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:13:10,182 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:13:10,182 - INFO - Decision Engine Analysis:
+2026-04-30 12:13:10,182 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:13:10,182 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:15,182 - INFO - 
+[ITERATION 154] 2026-04-30 12:13:15
+2026-04-30 12:13:15,209 - INFO - Node Resource Usage:
+2026-04-30 12:13:15,210 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:13:15,210 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:13:15,210 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:15,210 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:15,210 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:13:15,210 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:13:15,210 - INFO - Decision Engine Analysis:
+2026-04-30 12:13:15,210 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:13:15,210 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:20,211 - INFO - 
+[ITERATION 155] 2026-04-30 12:13:20
+2026-04-30 12:13:20,236 - INFO - Node Resource Usage:
+2026-04-30 12:13:20,236 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:13:20,236 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:13:20,237 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:20,237 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:20,237 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:13:20,237 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:13:20,237 - INFO - Decision Engine Analysis:
+2026-04-30 12:13:20,237 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:13:20,237 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:25,237 - INFO - 
+[ITERATION 156] 2026-04-30 12:13:25
+2026-04-30 12:13:25,265 - INFO - Node Resource Usage:
+2026-04-30 12:13:25,265 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:13:25,265 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:13:25,265 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:25,265 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:25,265 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:13:25,265 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:13:25,265 - INFO - Decision Engine Analysis:
+2026-04-30 12:13:25,265 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:13:25,266 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:30,266 - INFO - 
+[ITERATION 157] 2026-04-30 12:13:30
+2026-04-30 12:13:30,294 - INFO - Node Resource Usage:
+2026-04-30 12:13:30,294 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:13:30,294 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:13:30,294 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:30,294 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:30,294 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:13:30,294 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:13:30,294 - INFO - Decision Engine Analysis:
+2026-04-30 12:13:30,294 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:13:30,294 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:35,295 - INFO - 
+[ITERATION 158] 2026-04-30 12:13:35
+2026-04-30 12:13:35,320 - INFO - Node Resource Usage:
+2026-04-30 12:13:35,320 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:13:35,321 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:13:35,321 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:35,321 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:35,321 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%
+2026-04-30 12:13:35,321 - INFO -   \u2713 Node minikube-m03 is underutilized (CPU: 0.1%, Memory: 3.1%)
+2026-04-30 12:13:35,321 - INFO - Decision Engine Analysis:
+2026-04-30 12:13:35,321 - INFO -   \u2713 All nodes are balanced. No action needed.
+2026-04-30 12:13:35,321 - INFO - Next check in 5 seconds...
+2026-04-30 12:13:40,321 - INFO - 
+[ITERATION 159] 2026-04-30 12:13:40
+2026-04-30 12:13:40,352 - INFO - Node Resource Usage:
+2026-04-30 12:13:40,352 - INFO -   Node: minikube | CPU: 0.4% | Memory: 9.8%
+2026-04-30 12:13:40,352 - INFO -   \u2713 Node minikube is underutilized (CPU: 0.4%, Memory: 9.8%)
+2026-04-30 12:13:40,352 - INFO -   Node: minikube-m02 | CPU: 0.1% | Memory: 2.9%
+2026-04-30 12:13:40,352 - INFO -   \u2713 Node minikube-m02 is underutilized (CPU: 0.1%, Memory: 2.9%)
+2026-04-30 12:13:40,352 - INFO -   Node: minikube-m03 | CPU: 0.1% | Memory: 3.1%

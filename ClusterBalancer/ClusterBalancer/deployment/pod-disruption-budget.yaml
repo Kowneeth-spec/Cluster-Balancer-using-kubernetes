@@ -1,0 +1,16 @@
+---
+# Pod Disruption Budget for CPU Stress Deployment
+# This ensures that at least one pod from the cpu-stress deployment
+# remains available during voluntary disruptions (like cluster rebalancing)
+
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: cpu-stress-pdb
+  namespace: default
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: cpu-stress
+  unhealthyPodEvictionPolicy: AlwaysAllow

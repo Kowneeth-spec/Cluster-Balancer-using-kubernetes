@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cpu-stress
+  labels:
+    app: cpu-stress
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cpu-stress
+  template:
+    metadata:
+      labels:
+        app: cpu-stress
+    spec:
+      containers:
+      - name: stress-container
+        image: alexeiled/stress-ng:latest
+        args:
+          - "--cpu"
+          - "2"
+          - "--cpu-load"
+          - "100"
+          - "--timeout"
+          - "600s"
+        resources:
+          limits:
+            cpu: "1000m"
+            memory: "512Mi"
+          requests:
+            cpu: "900m"
+            memory: "256Mi"

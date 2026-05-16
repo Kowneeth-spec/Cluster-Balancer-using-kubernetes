@@ -1,0 +1,22 @@
+{
+  "thresholds": {
+    "cpu_overloaded_percent": 5,
+    "cpu_underutilized_percent": 2,
+    "memory_overloaded_percent": 80,
+    "memory_underutilized_percent": 20
+  },
+  "monitoring": {
+    "check_interval_seconds": 30,
+    "continuous_mode": false
+  },
+  "migration": {
+    "max_retries": 3,
+    "retry_delay_seconds": 5,
+    "enable_pod_disruption_budget": true,
+    "graceful_termination_seconds": 30
+  },
+  "logging": {
+    "log_level": "INFO",
+    "log_file": "cluster_balancer.log"
+  }
+}
